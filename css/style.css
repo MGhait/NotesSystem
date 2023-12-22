@@ -1,0 +1,232 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+nav {
+    background-color: #6285a7;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(98, 149, 167, 0.81);
+}
+
+.index-intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.signup-form {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.signup-form h2 {
+    text-align: center;
+    color: #333;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form-form {
+    margin-top: 20px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input,
+.signup-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.signup-form p {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+input + button {
+    background-color: #6285a7;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*************************************/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #6285a7;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 500px;
+    margin: 70px auto;
+    padding: 35px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+textarea + button {
+    background-color: #6285a7;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+textarea + button:hover {
+    background-color: #555;
+}
+
+.note-list {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+#noteList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note {
+    position: relative;
+    min-height: 70px;
+    background-color: rgba(132, 200, 124, 0.56);
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.note .title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.note .title a {
+    color: black;
+    text-decoration: none;
+}
+.note .title a:hover {
+    color:#6285a7;
+}
+.note .description {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.note .close {
+    position: absolute;
+    width: 7px;
+    right: 20px;
+    top: 15px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.note .close:hover {
+    color: red;
+    /*font-size: medium;*/
+}
+
+.note small {
+    position: absolute;
+    color: rgba(215, 15, 15, 0.93);
+    bottom: 10px;
+    right: 10px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
